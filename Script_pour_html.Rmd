@@ -1,0 +1,160 @@
+---
+title: "Point d'étape de la thèse d’Anouck Delfino <br> (Janvier 2026)"
+output:
+  html_document:
+    self_contained: false
+    toc: true
+    toc_float: false
+    toc_depth: 3
+    number_sections: false
+    theme: cosmo
+    css: style.css
+---
+<br>
+
+## Introduction
+
+
+## 1. Les arborescences 
+
+## 2. Radio France
+
+### 2.1. Vue d'ensemble
+
+
+### 2.2. Les mots-clés
+
+On utilise les mots-clés renseignés pour chaque émission pour faire un treemap. La taille de chaque rectangle est proportionnelle à sa fréquence d'apparition.
+
+<figure class="autofig">
+<div class="full-bleed">
+  <iframe
+    src="graphiques/Mots_cles/treemap_global_fixed.html"
+    style="border:none;height:650px;">
+  </iframe>
+</div>
+ <figcaption>Répartition des mots-clés parmi les épisodes de Radio-France entre 2015 et 2025 </figcaption>
+</figure>
+<br><br>
+
+On peut ensuite se rendre compte à quel point une émission donnée déforme cette structure. 
+
+<figure class="autofig">
+<div style="width:100vw; margin-left: calc(50% - 50vw);">
+<iframe src="graphiques/Mots_cles/dashboard_treemaps_fixed.html"
+        width="100%"
+        height="950"
+        style="border:none;">
+</iframe>
+</div>
+ <figcaption>Comparaison de quatre émissions : structure locale des mots-clés (couleurs fixes).</figcaption>
+</figure>
+
+<br><br><br>
+
+Il est ausi possible de projeter une émission dans cette structure d'ensemble pour voir où elle se concentre. 
+
+<figure class="autofig">
+<div style="width:100vw; margin-left: calc(50% - 50vw);">
+  <iframe src="graphiques/Mots_cles/dashboard_treemaps_red.html"
+          width="100%"
+          height="950"
+          style="border:none;">
+  </iframe>
+</div>
+ <figcaption>Comparaison de quatre émissions : concentration dans certains mots-clés.</figcaption>
+</figure>
+
+### 2.3. Les grandes thèmes
+
+On utilise les descriptions des emissions
+
+### 2.4. Les invités
+
+On peut d'abord faire un réseau des émissions selon qu'elles partagent des invités.
+
+
+<figure class="autofig">
+<div class="full-bleed">
+  <iframe
+    src="graphiques/ego_reseaux_3_graphes.html"
+    style="border:none;height:650px;">
+  </iframe>
+</div>
+ <figcaption>Réseau des émissions selon invités en partage </figcaption>
+</figure>
+<br><br>
+
+
+On peut également distinguer les emissions par type d'invites.
+
+
+<figure class="autofig">
+<div class="full-bleed">
+  <iframe
+    src="graphiques/Camemberts/dashboard_camemberts_3.html"
+    style="border:none;height:550px;">
+  </iframe>
+</div>
+ <figcaption>Comparaison de trois émissions selon leur type d'invités. </figcaption>
+</figure>
+<br><br>
+
+
+Enfin, on peut distinguer les sections CNU selon leur présence radiophonique.
+
+<iframe src="graphiques/Part_PU_radio_France_interactif_widget.html" width="100%" height="1200px" style="border:none;">
+
+</iframe>
+
+### 2.5. Les liens externes
+
+<br>
+
+<figure class="autofig">
+<div class="full-bleed">
+  <iframe
+    src="graphiques/Camemberts_liens_externes/dashboard_camemberts_3.html"
+    style="border:none;height:550px;">
+  </iframe>
+</div>
+ <figcaption> URL présentes sur les pages des émissions </figcaption>
+</figure>
+<br><br>
+
+
+
+## 3. Les podcasts
+
+En ce qui concerne les podcasts, les données les plus extensives (en nombre de podcasts recensés) et les plus précises (en nombre de variables renseignées) sont celles du Podcast Index. Le portail recense actuellement plus de 4.5 millions de podcasts toutes langues confondues.
+
+
+
+
+
+
+
+<figure class="autofig">
+<div class="full-bleed">
+  <iframe
+    src="graphiques/repartition_podcasts_langues.html"
+    style="border:none;height:650px;">
+  </iframe>
+</div>
+ <figcaption>Répartition des langues dans les podcasts </figcaption>
+</figure>
+<br><br>
+
+
+
+
+![](graphiques/annee_distribution.svg){width="100%"}
+
+![](graphiques/nombre_episodes_distribution.svg){width="100%"}
+
+![](graphiques/duree_distribution.svg){width="100%"}
+
+
+
+
+
